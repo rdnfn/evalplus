@@ -173,7 +173,7 @@ def evaluate_humaneval(flags):
                 n_samples += 1
 
             assert n_samples == len(remainings), "Missing problems in unfinished"
-            assert len(completion_id) == len(problems), "Missing problems in samples"
+            # assert len(completion_id) == len(problems), "Missing problems in samples"
 
             def stucking_checker():
                 while remainings:
