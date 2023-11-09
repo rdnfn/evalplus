@@ -171,3 +171,4 @@ HumanEvalPlus*.gz
 evalplus/_version.py
 
 tmp_samples/
+gpt-4_temp_0.0/eval_results.json
